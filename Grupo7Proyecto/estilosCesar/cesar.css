@@ -1,0 +1,217 @@
+img{
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  left: 160px;
+  top: 40px;
+}
+.header{
+  background: linear-gradient(90deg, #1cba9f 40%, #0B633D 100%);
+  margin-left: 350px;
+  height: 40px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding: 1px 15px 10px 15px;
+}
+
+ol{
+  list-style: none;
+  height: 75px;
+}
+
+.lista1{
+  display: inline;
+  width: 200px;
+  height: 25px;
+  margin: 30px;
+}
+
+.lista1 a{
+  color: white;
+}
+
+.lista2{
+  display: inline;
+  width: 200px;
+  margin: 30px;
+}
+
+.lista2 a:hover{
+  color: #0f7f5d;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #1b3028;
+}
+
+p a{
+  color: white;
+}
+
+.header p, .main_Docencia p{
+  margin: 0 0 25px;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.main_Docencia{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  align-content: flex-start;
+  width: 100%;
+}
+.main_Docencia table{
+  border: none;
+  width: 500%;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+
+.main_Cobertura .T1{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  left: 220px;
+}
+
+table .T1{
+  border: none;
+  width: 500%;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+.T1 h2{
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 25px;
+}
+.tl{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  left: 50px;
+}
+.tl table{
+  border-collapse: separate;
+  border-spacing: 100px 0px;
+  margin-top: 25px;
+  margin-bottom: 100px;
+}
+.tl p{
+  color: #0F6545;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h2{
+  color: #0F6545;
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.footer{
+  background: linear-gradient(90deg, #1cba9f 40%, #0B633D 100%);
+}
+.footer p{
+  color: white;
+}
+
+.container-column-Footer{
+  margin-left: 100px;
+  display: inline-block;
+  width: 500px;
+  height: 25px;
+}
+/*Aquí debajo va el FOOTER*/
+
+footer{
+  width: 100%;
+  padding: 50px 0px;
+  background-image: url(../Images/background-footer.svg);
+  background-size: cover;
+}
+
+.container__footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box__footer{
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.box__footer .logo2 img{
+  width: 180px;
+}
+
+.box__footer .terms{
+  max-width: 350px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
+}
+
+.box__footer h2{
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
+}
+
+.box__footer a{
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.box__footer a:hover{
+  opacity: 0.8;
+}
+
+.box__footer a .fab{
+  font-size: 20px;
+}
+
+.box__copyright{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.box__copyright p{
+  margin-top: 5px;
+  color: #7a7a7a;
+}
+
+.box__copyright hr{
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}

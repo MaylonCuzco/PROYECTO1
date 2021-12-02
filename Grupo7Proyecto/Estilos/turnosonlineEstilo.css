@@ -1,0 +1,137 @@
+.contenido{
+    width: 100%;
+    background-image: url(http://190.2.31.107/turnosweb/images/bg-index.jpg);
+    display: flex;
+}
+.izq{
+    /* border: black solid 1px; */
+    width: 55%;
+}
+.izq1{
+    /* border: rgb(100, 100, 100) solid 1.5px; */
+    width: 25%;
+    margin-left: 30%;
+
+}
+.izq2{
+    /* border: rgb(160, 160, 160) solid 1.5px; */
+    width: 50%;
+    margin-left: 30%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.izq2 b{
+    font-size: 35px;
+}
+.izq2 p{
+    font-size: 20px;
+}
+/* derecha */
+.der{
+    /* border: black solid 1px; */
+    width: 35%;
+}
+.der1{
+    /* border: rgb(235, 9, 9) solid 1px; */
+    padding-left: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.der1 b{
+    font-size: 20px;
+}
+.der1 p{
+    font-size: 15px;
+}
+
+.der2{
+    /* border: rgb(238, 68, 68) solid 1px; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+.der2 >.txt{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 30px;
+    padding: 5px;
+
+    border: white 1px solid;
+    background: rgb(24, 112, 24);
+    color: white;
+    border-radius: 5px;
+}
+.der3{
+    /* border: rgb(238, 68, 68) solid 1px; */
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    padding-left: 7px;
+}
+
+#der3{
+    display: flex;
+}
+#der3 >p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#der3 >.txt2{
+    width: 30%;
+    height: 25px;
+
+    border: white 1px solid;
+    background: rgb(24, 112, 24);
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.der4{
+    /* border: yellow solid 1px; */
+    text-align: center;
+}
+.der4 >#boton1{
+    background: rgb(245, 190, 50);
+    border: solid 1px rgb(245, 190, 50);
+    color: white;
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.der4 >#boton2{
+    background: rgb(24, 112, 24);
+    border: white solid 1px;
+    color: white;
+    width: 25%;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* abajo */
+.contenido2{
+    /* border: solid black 1px; */
+    width: 100%;
+}
+.arriba{
+    /* border: solid rgb(253, 65, 65) 1px; */
+    padding-left: 16%;
+    color: rgb(151, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abajo{
+    /* border: solid rgb(65, 253, 253) 1px; */
+    padding-left: 16%;
+    padding-right: 16%;
+    color: rgb(151, 151, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.abajo >div{
+    /* border: solid rgb(65, 253, 90) 1px; */
+    text-align: left;
+    padding: 15px;
+}

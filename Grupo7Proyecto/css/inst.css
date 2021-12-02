@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+nav{
+    
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 1px 50px;
+}
+.logo{
+    height: 100px;
+}
+nav ul{
+    float: right;
+    margin-right: 2px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 0px;
+}
+nav ul li a{
+    color: black;
+    font-size: 18px;
+    padding: 7px 9px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: aquamarine;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 958px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+body{
+height: 200vh;
+justify-content: center;
+align-items: center;
+background-image: url("https://img.freepik.com/vector-gratis/fondo-blanco-gris-brillante-lineas-onduladas_1017-25101.jpg?size=626&ext=jpg");
+background-size: 100% 100%;
+background-repeat: no-repeat;
+
+}
+
+.parrafo{
+    z-index: 1;
+    width: 1000px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 5px;
+    text-align: justify;
+    margin: 10%;
+}
+.parrafo iframe{
+    width: 460px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+
+}
+h2 {
+    color: #025B04;
+    text-shadow: #555 2px 2px 3px;
+    font-size: 280%;
+    font-family: 'Comic Sans';
+}
+p.pa {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align:justify;
+    background: center;
+   max-width: 90;
+   min-height: 20;
+}
+.pa{
+    z-index: 1;
+    width: 1000px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 0px;
+    text-align: justify;
+    margin: auto;
+
+}
+

@@ -1,0 +1,226 @@
+/* cabecera */
+header{
+    width: 100%;
+}
+.img1{
+    width: 20%;
+    height:auto;
+}
+.img1 img{
+    width: 50%;
+    padding-left: 30%;
+}
+.cabeceraul{
+    list-style: none;
+    display:flex;
+    background: rgb(255, 255, 255);
+}
+.cabeceraul>li{
+    padding: 5px;
+    padding-top: 5%;
+}
+
+.cabeceraul>li>a{
+    color: #2b7045;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cabeceraul>li>a:hover{
+    color: #20b355;
+    transition: all .4s;
+    
+}
+
+h1{
+    color:rgb(19, 88, 19);
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color:rgb(19, 88, 19);
+    font-size: 20px;
+    text-align: center;
+    width:62%;
+    border:1px solid;
+    margin:auto;
+    padding: 20px;
+}
+
+table {
+    border: px solid #000;
+    border-collapse:collapse; /**/
+    width: 80%;
+    /*height: 2300px;*/
+    margin: auto;   
+    font-size: 20px;
+}
+
+table td {
+    border: 0px solid #ccc;
+    padding: 20px;
+    box-shadow: 1px 8px 15px grey;
+}
+
+
+table td:hover{
+    background:rgb(48, 212, 48);
+    color: #fff;
+    border: 1px solid rgb(0, 105, 0);
+    transition: all .5s;
+
+}
+
+
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/25/12/48/turquoise-1540436_960_720.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.letra{
+    width:55%;
+    color:rgba(11, 122, 94, 0.808);
+    font-size: 50px;
+    text-align: left;
+    padding: 30px;
+    position:absolute;
+    font-family: fantasy;
+    background-image: url("https://valledellili.org/wp-content/uploads/2018/12/clinica-del-dolor-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letra2{
+    width:50%;
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+    font-family: fantasy;
+}
+
+form{
+    width: 30%;
+    border: 1px solid rgb(175, 192, 171);
+    margin: 30px;
+    padding: 20px;
+    float: right;
+}
+
+input,textarea{
+    width: relative;
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    background:rgb(184, 249, 252);
+    border: 0;
+    border-bottom: 2px solid rgb(53, 53, 53);
+    
+}
+.nombre{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    resize: vertical;
+    /*resize: horizontal;*/
+    /*resize: both;*/
+    max-height: 250px;
+    min-height: 150px;
+}
+
+input:focus ,textarea:focus{
+    border: 3px solid rgb(69, 240, 69);
+}
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: rgb(19, 88, 19);
+    color: #fff;
+    border: none;
+}
+
+input[type="submit"]:hover{
+    background: rgb(66, 168, 66);
+    cursor: pointer;
+}
+
+
+/* pie de pag */
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(../Images/background-footer.svg);
+    background-size: cover;
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.box__footer .logo img{
+    width: 180px;
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+}
+
+.box__footer h2{
+    margin-bottom: 30px;
+    color: #343434;
+    font-weight: 700;
+}
+
+.box__footer a{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box__footer a:hover{
+    opacity: 0.8;
+}
+
+.box__footer a .fab{
+    font-size: 20px;
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 5px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
